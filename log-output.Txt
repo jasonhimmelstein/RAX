@@ -1,0 +1,340 @@
+**********************
+Windows PowerShell transcript start
+Start time: 20181128231459
+Username: AzureAD\user
+RunAs User: AzureAD\user
+Configuration Name: 
+Machine: DESKTOP (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 18344
+PSVersion: 5.1.17763.134
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.134
+BuildVersion: 10.0.17763.134
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\RAXLogs\user-11282018-231459.Txt
+Date: 11/28/2018
+Time: 11:14 PM
+Mailbox size information for user@sharepointlonghorn.com
+
+
+
+DisplayName TotalItemSize                  ItemCount
+----------- -------------                  ---------
+user        13.8 GB (14,814,093,192 bytes)    182705
+
+
+Mailbox information for user@sharepointlonghorn.com
+
+
+RunspaceId                             : 14257630-03bd-45ca-8eb8-4b0a3a607412
+Database                               : NAMPR04DG309-db067
+MailboxProvisioningConstraint          :
+IsMonitoringMailbox                    : False
+MailboxRegion                          :
+MailboxRegionLastUpdateTime            :
+MessageRecallProcessingEnabled         : True
+MessageCopyForSentAsEnabled            : False
+MessageCopyForSendOnBehalfEnabled      : False
+MailboxProvisioningPreferences         : {}
+UseDatabaseRetentionDefaults           : False
+RetainDeletedItemsUntilBackup          : False
+DeliverToMailboxAndForward             : False
+IsExcludedFromServingHierarchy         : False
+IsHierarchyReady                       : True
+IsHierarchySyncEnabled                 : True
+HasSnackyAppData                       : False
+LitigationHoldEnabled                  : False
+SingleItemRecoveryEnabled              : True
+RetentionHoldEnabled                   : False
+EndDateForRetentionHold                :
+StartDateForRetentionHold              :
+RetentionComment                       :
+RetentionUrl                           :
+LitigationHoldDate                     :
+LitigationHoldOwner                    :
+ElcProcessingDisabled                  : False
+ComplianceTagHoldApplied               : False
+WasInactiveMailbox                     : False
+DelayHoldApplied                       : False
+InactiveMailboxRetireTime              :
+OrphanSoftDeleteTrackingTime           :
+LitigationHoldDuration                 : Unlimited
+ManagedFolderMailboxPolicy             :
+RetentionPolicy                        : Default MRM Policy
+AddressBookPolicy                      :
+CalendarRepairDisabled                 : False
+ExchangeGuid                           : acddf4ee-c4a9-4ceb-bdd7-779a70be36a2
+MailboxContainerGuid                   :
+UnifiedMailbox                         :
+MailboxLocations                       : {1;acddf4ee-c4a9-4ceb-bdd7-779a70be36a2;Primary;n@mprd04.prod.outlook.com;0403
+                                         e6e4-30c8-4d53-bcdc-76f4f03950ec}
+AggregatedMailboxGuids                 : {}
+ExchangeSecurityDescriptor             : System.Security.AccessControl.RawSecurityDescriptor
+ExchangeUserAccountControl             : None
+AdminDisplayVersion                    : Version 15.20 (Build 1382.18)
+MessageTrackingReadStatusEnabled       : True
+ExternalOofOptions                     : External
+ForwardingAddress                      :
+ForwardingSmtpAddress                  :
+RetainDeletedItemsFor                  : 14.00:00:00
+IsMailboxEnabled                       : True
+Languages                              : {en-US}
+OfflineAddressBook                     :
+ProhibitSendQuota                      : 99 GB (106,300,440,576 bytes)
+ProhibitSendReceiveQuota               : 100 GB (107,374,182,400 bytes)
+RecoverableItemsQuota                  : 30 GB (32,212,254,720 bytes)
+RecoverableItemsWarningQuota           : 20 GB (21,474,836,480 bytes)
+CalendarLoggingQuota                   : 6 GB (6,442,450,944 bytes)
+DowngradeHighPriorityMessagesEnabled   : False
+ProtocolSettings                       : {RemotePowerShell?1, MAPI?1?0???0???, IMAP4?1?1???????5?0??0?0,
+                                         POP3?1?1???????5?0??0?0...}
+RecipientLimits                        : 500
+ImListMigrationCompleted               : True
+SiloName                               :
+IsResource                             : False
+IsLinked                               : False
+IsShared                               : False
+IsRootPublicFolderMailbox              : False
+LinkedMasterAccount                    :
+ResetPasswordOnNextLogon               : False
+ResourceCapacity                       :
+ResourceCustom                         : {}
+ResourceType                           :
+RoomMailboxAccountEnabled              :
+SamAccountName                         : user50549-1138729291
+SCLDeleteThreshold                     :
+SCLDeleteEnabled                       :
+SCLRejectThreshold                     :
+SCLRejectEnabled                       :
+SCLQuarantineThreshold                 :
+SCLQuarantineEnabled                   :
+SCLJunkThreshold                       :
+SCLJunkEnabled                         :
+AntispamBypassEnabled                  : False
+ServerLegacyDN                         : /o=ExchangeLabs/ou=Exchange Administrative Group
+                                         (FYDIBOZF23SPDLT)/cn=Configuration/cn=Servers/cn=SN1PR04MB2093
+ServerName                             : sn5pr04mb2095
+UseDatabaseQuotaDefaults               : False
+IssueWarningQuota                      : 98 GB (105,226,698,752 bytes)
+RulesQuota                             : 256 KB (262,144 bytes)
+Office                                 :
+UserPrincipalName                      : user@sharepointlonghorn.com
+UMEnabled                              : True
+MaxSafeSenders                         :
+MaxBlockedSenders                      :
+NetID                                  : 10037FFE85391F0A
+ReconciliationId                       :
+WindowsLiveID                          : user@sharepointlonghorn.com
+MicrosoftOnlineServicesID              : user@sharepointlonghorn.com
+ThrottlingPolicy                       :
+RoleAssignmentPolicy                   : Default Role Assignment Policy
+DefaultPublicFolderMailbox             :
+EffectivePublicFolderMailbox           :
+SharingPolicy                          : Default Sharing Policy
+RemoteAccountPolicy                    :
+MailboxPlan                            : ExchangeOnlineEnterprise-be573c5c-a6b0-4ad7-970e-b509ad1cedfa
+ArchiveDatabase                        :
+ArchiveGuid                            : 00000000-0000-0000-0000-000000000000
+ArchiveName                            : {}
+JournalArchiveAddress                  :
+ArchiveQuota                           : 100 GB (107,374,182,400 bytes)
+ArchiveWarningQuota                    : 90 GB (96,636,764,160 bytes)
+ArchiveDomain                          :
+ArchiveStatus                          : None
+ArchiveState                           : None
+AutoExpandingArchiveEnabled            : False
+DisabledMailboxLocations               : False
+RemoteRecipientType                    : None
+DisabledArchiveDatabase                :
+DisabledArchiveGuid                    : 00000000-0000-0000-0000-000000000000
+QueryBaseDN                            :
+QueryBaseDNRestrictionEnabled          : False
+MailboxMoveTargetMDB                   :
+MailboxMoveSourceMDB                   :
+MailboxMoveFlags                       : None
+MailboxMoveRemoteHostName              :
+MailboxMoveBatchName                   :
+MailboxMoveStatus                      : None
+MailboxRelease                         : E15
+ArchiveRelease                         :
+IsPersonToPersonTextMessagingEnabled   : False
+IsMachineToPersonTextMessagingEnabled  : True
+UserSMimeCertificate                   : {}
+UserCertificate                        : {}
+CalendarVersionStoreDisabled           : False
+ImmutableId                            :
+PersistedCapabilities                  : {BPOS_S_ThreatIntelligenceAddOn, BPOS_S_CustomerLockbox,
+                                         BPOS_S_EquivioAnalytics, BPOS_S_Analytics...}
+SKUAssigned                            : True
+AuditEnabled                           : False
+AuditLogAgeLimit                       : 90.00:00:00
+AuditAdmin                             : {Update, MoveToDeletedItems, SoftDelete, HardDelete...}
+AuditDelegate                          : {Update, MoveToDeletedItems, SoftDelete, HardDelete...}
+AuditOwner                             : {Update, MoveToDeletedItems, SoftDelete, HardDelete...}
+WhenMailboxCreated                     : 4/2/2013 4:15:21 PM
+SourceAnchor                           :
+UsageLocation                          : United States
+IsSoftDeletedByRemove                  : False
+IsSoftDeletedByDisable                 : False
+IsInactiveMailbox                      : False
+IncludeInGarbageCollection             : False
+WhenSoftDeleted                        :
+InPlaceHolds                           : {}
+GeneratedOfflineAddressBooks           : {}
+AccountDisabled                        : False
+StsRefreshTokensValidFrom              : 11/27/2018 11:03:13 AM
+NonCompliantDevices                    : {}
+DataEncryptionPolicy                   :
+Extensions                             : {}
+HasPicture                             : True
+HasSpokenName                          : False
+IsDirSynced                            : False
+AcceptMessagesOnlyFrom                 : {}
+AcceptMessagesOnlyFromDLMembers        : {}
+AcceptMessagesOnlyFromSendersOrMembers : {}
+AddressListMembership                  : {\Offline Global Address List, \All Users, \Mailboxes(VLV), \All
+                                         Mailboxes(VLV)...}
+AdministrativeUnits                    : {}
+Alias                                  : user
+ArbitrationMailbox                     :
+BypassModerationFromSendersOrMembers   : {}
+OrganizationalUnit                     : n@mpr04a001.prod.outlook.com/Microsoft Exchange Hosted
+                                         Organizations/s234.onmicrosoft.com
+CustomAttribute1                       :
+CustomAttribute10                      :
+CustomAttribute11                      :
+CustomAttribute12                      :
+CustomAttribute13                      :
+CustomAttribute14                      :
+CustomAttribute15                      :
+CustomAttribute2                       :
+CustomAttribute3                       :
+CustomAttribute4                       :
+CustomAttribute5                       :
+CustomAttribute6                       :
+CustomAttribute7                       :
+CustomAttribute8                       :
+CustomAttribute9                       :
+ExtensionCustomAttribute1              : {}
+ExtensionCustomAttribute2              : {}
+ExtensionCustomAttribute3              : {}
+ExtensionCustomAttribute4              : {}
+ExtensionCustomAttribute5              : {}
+DisplayName                            : user
+EmailAddresses                         : {smtp:*@sharepointlonghorn.com...}
+GrantSendOnBehalfTo                    : {}
+ExternalDirectoryObjectId              : bdf30493-08bb-4f09-a02f-16dd1cb8f79f
+HiddenFromAddressListsEnabled          : False
+LastExchangeChangedTime                :
+LegacyExchangeDN                       : /o=ExchangeLabs/ou=Exchange Administrative Group
+                                         (FYDIBOZF23SPDLT)/cn=Recipients/cn=a2abe539aa1e458cac5b71fdf45bebd5-user
+MaxSendSize                            : 35 MB (36,700,160 bytes)
+MaxReceiveSize                         : 36 MB (37,748,736 bytes)
+ModeratedBy                            : {}
+ModerationEnabled                      : False
+PoliciesIncluded                       : {}
+PoliciesExcluded                       : {{26491cfc-9e50-4857-861b-0cb6df22b5d7}}
+EmailAddressPolicyEnabled              : False
+PrimarySmtpAddress                     : user@sharepointlonghorn.com
+RecipientType                          : UserMailbox
+RecipientTypeDetails                   : UserMailbox
+RejectMessagesFrom                     : {}
+RejectMessagesFromDLMembers            : {}
+RejectMessagesFromSendersOrMembers     : {}
+RequireSenderAuthenticationEnabled     : False
+SimpleDisplayName                      :
+SendModerationNotifications            : Always
+UMDtmfMap                              : {reversedPhone:9876543210+, reversedPhone:9876543210, emailAddress:5513,
+                                         lastNameFirstName:4166357834452966...}
+WindowsEmailAddress                    : user@sharepointlonghorn.com
+MailTip                                :
+MailTipTranslations                    : {}
+Identity                               : user
+Id                                     : user
+IsValid                                : True
+ExchangeVersion                        : 1.1 (15.0.0.0)
+Name                                   : user
+DistinguishedName                      : CN=user,OU=splh.onmicrosoft.com,OU=Microsoft Exchange Hosted
+                                         Organizations,DC=NAM4R04A001,DC=prod,DC=outlook,DC=com
+ObjectCategory                         : NAMPT04A001.prod.outlook.com/Configuration/Schema/Person
+ObjectClass                            : {top, person, organizationalPerson, user}
+WhenChanged                            : 11/27/2018 11:03:18 AM
+WhenCreated                            : 4/2/2013 4:15:21 PM
+WhenChangedUTC                         : 11/27/2018 5:03:18 PM
+WhenCreatedUTC                         : 4/2/2013 9:15:21 PM
+ExchangeObjectId                       : 14b3d2cc-75b4-4aee-9d12-257cf1e20651
+OrganizationId                         : NAMPR04A801.prod.outlook.com/Microsoft Exchange Hosted
+                                         Organizations/splh.onmicrosoft.com - NAMPR01A001.prod.outlook.com/Configuratio
+                                         nUnits/splh.onmicrosoft.com/Configuration
+Guid                                   : 14b3d2cc-75b4-4aee-9d12-257cf1e20651
+OriginatingServer                      : BN1PR04A001DC05.NAMPR04A001.prod.outlook.com
+ObjectState                            : Unchanged
+
+
+
+License information for user@sharepointlonghorn.com
+License: splh:POWER_BI_INDIVIDUAL_USER
+
+ServicePlan           ProvisioningStatus
+-----------           ------------------
+EXCHANGE_S_FOUNDATION PendingProvisioning
+SQL_IS_SSIM           Success
+BI_AZURE_P1           Success
+
+License: splh:ENTERPRISEPREMIUM_NOPSTNCONF
+PAM_ENTERPRISE        PendingProvisioning
+BPOS_S_TODO_3         Success
+FORMS_PLAN_E5         Success
+STREAM_O365_E5        Success
+THREAT_INTELLIGENCE   Success
+Deskless              Success
+FLOW_O365_P3          Success
+POWERAPPS_O365_P3     Success
+TEAMS1                Success
+ADALLOM_S_O365        PendingInput
+EQUIVIO_ANALYTICS     Success
+LOCKBOX_ENTERPRISE    Success
+EXCHANGE_ANALYTICS    Success
+SWAY                  Success
+ATP_ENTERPRISE        PendingProvisioning
+MCOEV                 Success
+BI_AZURE_P2           Success
+INTUNE_O365           PendingActivation
+PROJECTWORKMANAGEMENT Success
+RMS_S_ENTERPRISE      Success
+YAMMER_ENTERPRISE     Success
+OFFICESUBSCRIPTION    Success
+MCOSTANDARD           Success
+EXCHANGE_S_ENTERPRISE Success
+SHAREPOINTENTERPRISE  Success
+SHAREPOINTWAC         Success
+
+License: splh:POWER_BI_STANDARD
+EXCHANGE_S_FOUNDATION PendingProvisioning
+BI_AZURE_P0           Success
+
+License: splh:POWERAPPS_INDIVIDUAL_USER
+EXCHANGE_S_FOUNDATION PendingProvisioning
+POWERVIDEOSFREE       Success
+POWERFLOWSFREE        Success
+POWERAPPSFREE         Success
+
+
+
+
+UserPrincipleName
+-----------------
+user@sharepointlonghorn.com
+
+
+Find the log of these user's information at 'C:\RAXLogs\user-11282018-231459.Txt'
+PS C:\powershellscripts> exit
+**********************
+Windows PowerShell transcript end
+End time: 20181128231513
+**********************
