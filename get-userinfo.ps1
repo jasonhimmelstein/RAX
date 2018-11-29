@@ -1,6 +1,6 @@
 ﻿# enumumerate user list with sku info
 $filename = "get-userinfo.ps1"
-$version = "v1.26 updated on 11/28/2018"
+$version = "v1.42 updated on 11/28/2018"
 # Jason Himmelstein
 # http://www.sharepointlonghorn.com
 
